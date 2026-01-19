@@ -32,7 +32,7 @@ h2 {
   min-height: 48px;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -48,12 +48,30 @@ h2 {
   font-weight: 600;
 }
 
+/* ====== NUEVO: contenedor vertical label + checkbox ====== */
+.chk-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 22px;
+}
+
+.chk-label {
+  font-size: 12px;
+  line-height: 1;
+  opacity: 0.85;
+  user-select: none;
+}
+
+/* Checkbox */
 .chk {
   width: 18px;
   height: 18px;
   cursor: pointer;
 }
 
+/* (Estas clases las seguís usando para diferenciarlas si querés) */
 .p1 { background: #4A90E2; }
 .p05 { background: #9B59B6; }
 .ok { background: #2ECC71 !important; }
@@ -72,6 +90,8 @@ button {
   #tabla-ezequiel, #tabla-micaela { grid-template-columns: 120px repeat(5, 1fr); }
   h1 { font-size: 1.2rem; }
   h2 { font-size: 1rem; }
-  .celda { min-height: 40px; padding: 4px; }
+  .celda { min-height: 40px; padding: 4px; gap: 6px; }
   .chk { width: 16px; height: 16px; }
+  .chk-label { font-size: 11px; }
+  .chk-wrap { min-width: 20px; }
 }
