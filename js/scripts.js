@@ -4,10 +4,10 @@ const momentos = ["Desayuno", "Colación 1", "Comida", "Colación 2", "Cena"];
 
 // Tablas
 const alimentosEze = {
-  "Verdura": [[1], [], [1, 0.5], [], [1, 1]],
+  "Verdura": [[1], [], [1, 1], [], [1, 1, 0.5]],
   "Cereales": [[1, 1], [], [1, 0.5], [], [1, 0.5]],
-  "Leguminosas": [[], [], [1, 1, 0.5], [], [1, 1]],
-  "AOA Muy Bajo": [[1,1,1], [1,1], [1,1], [1,1], [1,1]],
+  "Leguminosas": [[], [], [1, 0.5], [], [1]],
+  "AOA Muy Bajo": [[1,1,1], [1,1], [1,1,0.5], [1,1], [1,1,0.5]],
   "AOA Bajo": [[], [], [1,1,1,0.5], [], [1,1,1]],
   "Frutos Secos": [[], [1,0.5], [], [], []],
 };
